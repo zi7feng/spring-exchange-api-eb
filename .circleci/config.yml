@@ -39,4 +39,4 @@ workflows:
       - deploy:
           requires:
             - build-and-test
-          context: aws-credentials
+          context: aws-dev
